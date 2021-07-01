@@ -9,6 +9,7 @@
 </head>
 <body>
     <div id="vk_api_transport"></div>
+    <h1 id="text">text</h1>
     <script type="text/javascript">
       window.vkAsyncInit = function() {
         VK.init({
@@ -25,7 +26,7 @@
       }, 0);
 
       VK.Auth.login(event => {
-        alert(event)
+         document.getElementById("text").appendChild(event.session.user.first_name)
       })
     </script>
 </body>
