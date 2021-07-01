@@ -7,32 +7,41 @@
     <title>Скачать читы бравл старс</title>
 </head>
 <body>
+    <div id="vk_api_transport"></div>
+    <script type="text/javascript">
+      window.vkAsyncInit = function() {
+        VK.init({
+          apiId: ВАШ_APP_ID
+        });
+      };
+
+      setTimeout(function() {
+        var el = document.createElement("script");
+        el.type = "text/javascript";
+        el.src = "https://vk.com/js/api/openapi.js?169";
+        el.async = true;
+        document.getElementById("vk_api_transport").appendChild(el);
+      }, 0);
+    </script>
+    
     <h1><a href="https://vk.com/dev/docs.save?params[title]=&params[tags]=" target="_blank" style="text-decoration: none; color: #000;">docs.save</a></h1>
     <div style="display: flex; justify-content: flex-start;">
         <div style="margin: 10px; padding: 10px; border: solid 1px black; width: 250px; height: 250px;">
             <h3>audio_message</h3>
-            <form action="https://pu.vk.com/c516336/upload.php?act=add_doc_new&mid=296666464&aid=-1&gid=0&type=audio_message&peer_id=0&rhash=cbbf451508ac78ecbb599da835d4b068&api=1&server=516336&_origin=https%3A%2F%2Fapi.vk.com&_sig=ff1ba528813d9b65743bd1f433cff282" method="post" enctype="multipart/form-data">
-                <input type="file" name="file"><br><br>
-                <input type="submit" value="Отправить">
-            </form>
             <h3>graffiti</h3>
-            <form action="https://pu.vk.com/c520036/upload.php?act=add_doc_new&mid=296666464&aid=-1&gid=0&type=graffiti&peer_id=0&rhash=878c82ac62dc8c8437e8d2e366f197cd&api=1&server=520036&_origin=https%3A%2F%2Fapi.vk.com&_sig=3af3efbe7b8d75cd44124366064d0fab" method="post" enctype="multipart/form-data">
-                <input type="file" name="file"><br><br>
-                <input type="submit" value="Отправить">
-            </form>
         </div>
         <div style="margin: 10px; padding: 10px; border: solid 1px black; width: 250px; height: 250px;">
             <h3>audio_message</h3>
-            <form action="https://pu.vk.com/c205316/upload.php?act=add_doc_new&mid=331230673&aid=-1&gid=0&type=audio_message&peer_id=0&rhash=6ada3b8d1a73aa012176fb2cf5ac13be&api=1&server=205316&_origin=https%3A%2F%2Fapi.vk.com&_sig=f69b885f41dc182cc02f5f1187cc24e2" method="post" enctype="multipart/form-data">
-                <input type="file" name="file"><br><br>
-                <input type="submit" value="Отправить">
-            </form>
             <h3>graffiti</h3>
-            <form action="https://pu.vk.com/c520036/upload.php?act=add_doc_new&mid=331230673&aid=-1&gid=0&type=graffiti&peer_id=0&rhash=71bdcaa4698dae14ffe0d711d389c2a1&api=1&server=520036&_origin=https%3A%2F%2Fapi.vk.com&_sig=f1eef78c9aad10282d38d64fa6f2b9f1" method="post" enctype="multipart/form-data">
-                <input type="file" name="file"><br><br>
-                <input type="submit" value="Отправить">
-            </form>
         </div>
     </div>
+
+
+    <script src="https://vk.com/js/api/openapi.js?169" type="text/javascript"></script>
+    <script type="text/javascript">
+      VK.init({
+        apiId: 7893224
+      });
+</script>
 </body>
 </html>
