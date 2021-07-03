@@ -1,3 +1,3 @@
-let val = window.location.origin
+let search = window.location.search
 
-let text = document.getElementById('text').innerHTML = val
+let text = document.getElementById('text').innerHTML = search
