@@ -2,10 +2,12 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ананимус хаб</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icon.png">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -40,8 +42,9 @@
             </form>
         </div>
     </div>
-    <div id="text"></div>
-    <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
-    <script src="script.js"></script>
+
+    <button id="auth" onclick="auth()">Авторизоваться</button>
+    <hr>
+    <div id="output">output</div>
 </body>
 </html>
