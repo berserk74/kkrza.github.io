@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // let search = window.location.search
 
 // let text = document.getElementById('text').innerHTML = search
@@ -17,3 +18,7 @@ bridge
   .catch(error => {
     // Обработка события в случае ошибки
   });
+=======
+let search = window.location.search
+let text = document.getElementById('text').innerHTML = search
+>>>>>>> 7764254d95442e65382f1b75a6a769713a26b3c9
